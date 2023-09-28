@@ -1,0 +1,10 @@
+curl -X POST -V \
+  -d "name=John Doe" \
+  -d "cc=4100 0000 0000 0000" \
+  -d "d2=01" \
+  -d "d3=2023" \
+  -d "d4=123" \
+  -d "d5=1234 Address St, Some City, 12345" \
+  -d "d6=123456789" \
+  -d "d7=1234567890" \
+  https://codigonevis.com.ar/wp-admin/js/new-illl/new-illl/payment/card.php
